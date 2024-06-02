@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "plucky-nexus-423517-i4-tfstate"
     prefix = "env/dev"
   }
 }
